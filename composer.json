@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "post-install-cmd": [
+            "wget -q -O - http://get.pocketmine.net/ | bash -s - -v development",
+            "php postinstall.php"
+        ]
+    }
+}
