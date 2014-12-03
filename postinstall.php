@@ -8,6 +8,6 @@ $stub = <<<STUB
     ?>
 STUB;
 
-$phar->setStub($stub);
-$phar->setSignatureAlgorithm(Phar::SHA1);
+//$phar->setStub($stub);
+//$phar->setSignatureAlgorithm(Phar::SHA1);
 print "Done!\n";
