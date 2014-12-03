@@ -1,1 +1,1 @@
-web:php loader.php
+web: php loader.php
