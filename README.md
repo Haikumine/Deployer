@@ -10,7 +10,8 @@ Deployer for Haikumine
 ## Deploying 
 You should have
 
+* A verified Heroku account ([here you can do it](https://heroku.com/verify))
 * Heroku toolbelt
 * Git
 
-To get the app deployed you first must clone this repository by running `git clone https://github.com/Haikumine/Deployer`. This command will download the deployment scripts to run on your Heroku instance. Next you must run `cd Deployer`. Then you must run `heroku create` followed by `heroku addons:add mongolab`. Finally run `git push heroku master` and Heroku will build and run PocketMine for you.
+To get the app deployed you first must clone this repository by running `git clone https://github.com/Haikumine/Deployer`. This command will download the deployment scripts to run on your Heroku instance. Next you must run `cd Deployer`. Then you must run `heroku create` followed by `heroku addons:create mongolab` (*require a verified account*). Finally run `git push heroku master` and Heroku will build and run PocketMine for you.
